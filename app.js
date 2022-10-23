@@ -16,7 +16,7 @@ document.getElementById('button').addEventListener("click", function() {
         publicIp = httpGet("https://api.ipify.org/");
     } catch (error) {
         alert("AdBlock Detected.")
-        Refresh();
+        location.reload()
     }
 
     document.getElementById('button').addEventListener("click", function() {
