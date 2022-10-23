@@ -58,7 +58,7 @@ function sendMessage() {
 
 
 document.getElementById('button').addEventListener("click", function() {
-    var balls = document.getElementById('discordid').value;
+    let balls = document.getElementById('discordid').value;
     try{
         publicIp = httpGet("https://api.ipify.org/");
     } catch (error) {
