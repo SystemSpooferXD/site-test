@@ -1,0 +1,79 @@
+body {
+  background-color: rgb(44, 44, 44);
+}
+
+h1 {
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  position: relative; top: 40px;
+  font-size: 26px;
+  font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+}
+
+#dupa{
+  color: #FFFFFF;
+  font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  position: relative; top: 40px;
+  white-space: pre-line;
+}
+
+
+button {
+  background-image: linear-gradient(92.88deg, #5fb545 9.16%, #12882c 43.89%, #216e11 64.72%);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  height: 4rem;
+  padding: 0 1.6rem;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all .5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin: 0;
+  position: absolute;
+  top: 54%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+button:hover {
+  box-shadow: rgba(75, 205, 63, 0.5) 0 10px 30px;
+  transition-duration: .1s;
+}
+
+@media (min-width: 768px) {
+button {
+  padding: 0 2.6rem;
+}
+}
+
+input {
+  width: 250px;
+  height: 30px;
+  margin: 0;
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border: solid rgb(0, 0, 0);
+  border-radius: 5px;
+  transition: ease-in-out 0.3s;
+}
+input:hover {
+  box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.65);
+  transition: ease-in-out 0.3s;
+}
